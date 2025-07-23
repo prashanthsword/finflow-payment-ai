@@ -1,0 +1,16 @@
+# Ignore virtual environment
+venv/
+
+# Ignore PyCache
+__pycache__/
+*.pyc
+
+# Ignore Streamlit config
+.streamlit/
+
+# Ignore Jupyter checkpoints
+.ipynb_checkpoints/
+
+# Ignore model files (optional)
+*.pkl
+
