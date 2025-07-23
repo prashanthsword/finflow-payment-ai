@@ -1,6 +1,4 @@
-pandas
-numpy
 scikit-learn
 streamlit
-
-pip install -r requirements.txt
+pandas
+numpy
