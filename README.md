@@ -1,18 +1,18 @@
 # 💳 FinFlow AI – Payment Risk Prediction Dashboard
 
-**FinFlow AI** is a complete ML + dashboard project to:
-- ✅ Predict payment failures
-- 🚨 Detect frauds
-- 📌 Recommend the best payment gateway
+**FinFlow AI** is a real-world fintech project that predicts transaction failures, detects payment frauds, and intelligently routes to the most reliable payment gateway — all in real-time using machine learning.
 
+### 🔍 What It Does:
+- Predicts failure probability based on gateway, latency, retry count, etc.
+- Flags suspicious/fraudulent transactions
+- Recommends the best payment gateway (based on live performance metrics)
 
-Built using:
-- 🧠 Scikit-learn (ML models)
-- 🐼 Pandas & NumPy (Data analysis)
-- 📊 Streamlit (Interactive dashboard)
-- 🛠️ Python (ETL, backend logic)
+### 💻 Tech Stack:
+- **Python** – Core logic & scripting
+- **Scikit-learn** – ML classification models
+- **Pandas, NumPy** – Data wrangling
+- **Streamlit** – Dashboard UI
 
----
 
 ## 🔧 Project Structure
 finflow_payment_ai/
@@ -58,24 +58,20 @@ venv\Scripts\activate
 source venv/bin/activate
 
 ✅ Step 2: Install required libraries
-bash
-Copy code
+
 pip install -r requirements.txt
 
 ✅ Step 3: Run ETL to clean the raw data
-bash
-Copy code
+
 python scripts/etl_pipeline.py
 
 
 ✅ Step 4: Train both models (failure + fraud)
-bash
-Copy code
+
 python scripts/model_train_failure.py
 python scripts/model_train_fraud.py
 ✅ Step 5: Launch the Streamlit Dashboard
-bash
-Copy code
+
 streamlit run dashboard/app.py
 📈 Dashboard Features
 💥 Predicts failure probability of a transaction
@@ -87,6 +83,10 @@ streamlit run dashboard/app.py
 🎛️ Input options: Amount, Gateway, Payment Type, Device, Latency, etc.
 
 🧠 Realtime ML prediction using trained models
+
+ About This Project : 
+ 
+This was a solo-built ML dashboard inspired by real-world fintech systems. It combines backend data pipelines, model training, and UI in one complete pipeline — ideal for showcasing end-to-end ML engineering skills.
 
 
 
